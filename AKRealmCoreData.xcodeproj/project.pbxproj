@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12EA338F259B21A2034BBEBD /* libPods-AKRealmCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F363FE2028D0E4A88E4FBB /* libPods-AKRealmCoreData.a */; };
+		D73A4D331F4D739700BEFD9D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D73A4D321F4D739700BEFD9D /* libz.tbd */; };
+		D73A4D351F4D73A000BEFD9D /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D73A4D341F4D73A000BEFD9D /* libc.tbd */; };
+		D73A4D371F4D73A900BEFD9D /* libRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D73A4D361F4D73A900BEFD9D /* libRealm.a */; };
+		D73A4D3A1F4D751700BEFD9D /* YFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D73A4D391F4D751700BEFD9D /* YFPerson.m */; };
+		D76E147A1F4D0D8B00B182DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D76E14791F4D0D8B00B182DE /* main.m */; };
+		D76E147D1F4D0D8B00B182DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D76E147C1F4D0D8B00B182DE /* AppDelegate.m */; };
+		D76E14801F4D0D8B00B182DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76E147F1F4D0D8B00B182DE /* ViewController.m */; };
+		D76E14831F4D0D8B00B182DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76E14811F4D0D8B00B182DE /* Main.storyboard */; };
+		D76E14861F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D76E14841F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodeld */; };
+		D76E14881F4D0D8B00B182DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76E14871F4D0D8B00B182DE /* Assets.xcassets */; };
+		D76E148B1F4D0D8B00B182DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D76E14891F4D0D8B00B182DE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B94ABF088CF1C5D750CA952 /* Pods-AKRealmCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKRealmCoreData.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKRealmCoreData/Pods-AKRealmCoreData.release.xcconfig"; sourceTree = "<group>"; };
+		D73A4D321F4D739700BEFD9D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D73A4D341F4D73A000BEFD9D /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		D73A4D361F4D73A900BEFD9D /* libRealm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRealm.a; path = "../../../../../../../../../Users/Kuture/Library/Developer/Xcode/DerivedData/AKRealmCoreData-enobscensvnixydyigipgumqycwj/Build/Products/Debug-iphonesimulator/Realm/libRealm.a"; sourceTree = "<group>"; };
+		D73A4D381F4D751700BEFD9D /* YFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPerson.h; sourceTree = "<group>"; };
+		D73A4D391F4D751700BEFD9D /* YFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPerson.m; sourceTree = "<group>"; };
+		D76E14751F4D0D8B00B182DE /* AKRealmCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKRealmCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76E14791F4D0D8B00B182DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D76E147B1F4D0D8B00B182DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D76E147C1F4D0D8B00B182DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D76E147E1F4D0D8B00B182DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D76E147F1F4D0D8B00B182DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D76E14821F4D0D8B00B182DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D76E14851F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AKRealmCoreData.xcdatamodel; sourceTree = "<group>"; };
+		D76E14871F4D0D8B00B182DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D76E148A1F4D0D8B00B182DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D76E148C1F4D0D8B00B182DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1F363FE2028D0E4A88E4FBB /* libPods-AKRealmCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKRealmCoreData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CDF3508A5E3B1E891B8B50 /* Pods-AKRealmCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKRealmCoreData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKRealmCoreData/Pods-AKRealmCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D76E14721F4D0D8B00B182DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A4D371F4D73A900BEFD9D /* libRealm.a in Frameworks */,
+				D73A4D351F4D73A000BEFD9D /* libc.tbd in Frameworks */,
+				D73A4D331F4D739700BEFD9D /* libz.tbd in Frameworks */,
+				12EA338F259B21A2034BBEBD /* libPods-AKRealmCoreData.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1063B1CFEE1F1ED1B7B59DC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6CDF3508A5E3B1E891B8B50 /* Pods-AKRealmCoreData.debug.xcconfig */,
+				8B94ABF088CF1C5D750CA952 /* Pods-AKRealmCoreData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D73A4D2D1F4D6E6700BEFD9D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D76E147B1F4D0D8B00B182DE /* AppDelegate.h */,
+				D76E147C1F4D0D8B00B182DE /* AppDelegate.m */,
+				D76E14811F4D0D8B00B182DE /* Main.storyboard */,
+				D76E14841F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodeld */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		D73A4D2E1F4D6E7200BEFD9D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D76E147E1F4D0D8B00B182DE /* ViewController.h */,
+				D76E147F1F4D0D8B00B182DE /* ViewController.m */,
+				D73A4D381F4D751700BEFD9D /* YFPerson.h */,
+				D73A4D391F4D751700BEFD9D /* YFPerson.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		D76E146C1F4D0D8B00B182DE = {
+			isa = PBXGroup;
+			children = (
+				D76E14771F4D0D8B00B182DE /* AKRealmCoreData */,
+				D76E14761F4D0D8B00B182DE /* Products */,
+				1063B1CFEE1F1ED1B7B59DC4 /* Pods */,
+				F0C906B9D2EEA156D81B18D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D76E14761F4D0D8B00B182DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D76E14751F4D0D8B00B182DE /* AKRealmCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D76E14771F4D0D8B00B182DE /* AKRealmCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D73A4D2E1F4D6E7200BEFD9D /* Class */,
+				D73A4D2D1F4D6E6700BEFD9D /* Others */,
+				D76E14781F4D0D8B00B182DE /* Supporting Files */,
+			);
+			path = AKRealmCoreData;
+			sourceTree = "<group>";
+		};
+		D76E14781F4D0D8B00B182DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D76E14871F4D0D8B00B182DE /* Assets.xcassets */,
+				D76E14891F4D0D8B00B182DE /* LaunchScreen.storyboard */,
+				D76E148C1F4D0D8B00B182DE /* Info.plist */,
+				D76E14791F4D0D8B00B182DE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0C906B9D2EEA156D81B18D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D73A4D361F4D73A900BEFD9D /* libRealm.a */,
+				D73A4D341F4D73A000BEFD9D /* libc.tbd */,
+				D73A4D321F4D739700BEFD9D /* libz.tbd */,
+				E1F363FE2028D0E4A88E4FBB /* libPods-AKRealmCoreData.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D76E14741F4D0D8B00B182DE /* AKRealmCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D76E148F1F4D0D8B00B182DE /* Build configuration list for PBXNativeTarget "AKRealmCoreData" */;
+			buildPhases = (
+				84F3D89EC0ABB906795F7BB1 /* [CP] Check Pods Manifest.lock */,
+				D76E14711F4D0D8B00B182DE /* Sources */,
+				D76E14721F4D0D8B00B182DE /* Frameworks */,
+				D76E14731F4D0D8B00B182DE /* Resources */,
+				661F26ACEDDF827C41DB7E2B /* [CP] Embed Pods Frameworks */,
+				10794B145C64F16D1F126BE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKRealmCoreData;
+			productName = AKRealmCoreData;
+			productReference = D76E14751F4D0D8B00B182DE /* AKRealmCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D76E146D1F4D0D8B00B182DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kuture;
+				TargetAttributes = {
+					D76E14741F4D0D8B00B182DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V6Z6SWH2Q9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D76E14701F4D0D8B00B182DE /* Build configuration list for PBXProject "AKRealmCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D76E146C1F4D0D8B00B182DE;
+			productRefGroup = D76E14761F4D0D8B00B182DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D76E14741F4D0D8B00B182DE /* AKRealmCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D76E14731F4D0D8B00B182DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76E148B1F4D0D8B00B182DE /* LaunchScreen.storyboard in Resources */,
+				D76E14881F4D0D8B00B182DE /* Assets.xcassets in Resources */,
+				D76E14831F4D0D8B00B182DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10794B145C64F16D1F126BE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKRealmCoreData/Pods-AKRealmCoreData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661F26ACEDDF827C41DB7E2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKRealmCoreData/Pods-AKRealmCoreData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F3D89EC0ABB906795F7BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76E14711F4D0D8B00B182DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A4D3A1F4D751700BEFD9D /* YFPerson.m in Sources */,
+				D76E14861F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodeld in Sources */,
+				D76E14801F4D0D8B00B182DE /* ViewController.m in Sources */,
+				D76E147D1F4D0D8B00B182DE /* AppDelegate.m in Sources */,
+				D76E147A1F4D0D8B00B182DE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D76E14811F4D0D8B00B182DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76E14821F4D0D8B00B182DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D76E14891F4D0D8B00B182DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D76E148A1F4D0D8B00B182DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D76E148D1F4D0D8B00B182DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D76E148E1F4D0D8B00B182DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D76E14901F4D0D8B00B182DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CDF3508A5E3B1E891B8B50 /* Pods-AKRealmCoreData.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6Z6SWH2Q9;
+				INFOPLIST_FILE = AKRealmCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.AKRealmCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D76E14911F4D0D8B00B182DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B94ABF088CF1C5D750CA952 /* Pods-AKRealmCoreData.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6Z6SWH2Q9;
+				INFOPLIST_FILE = AKRealmCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = austin.AKRealmCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76E14701F4D0D8B00B182DE /* Build configuration list for PBXProject "AKRealmCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76E148D1F4D0D8B00B182DE /* Debug */,
+				D76E148E1F4D0D8B00B182DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D76E148F1F4D0D8B00B182DE /* Build configuration list for PBXNativeTarget "AKRealmCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76E14901F4D0D8B00B182DE /* Debug */,
+				D76E14911F4D0D8B00B182DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D76E14841F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D76E14851F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodel */,
+			);
+			currentVersion = D76E14851F4D0D8B00B182DE /* AKRealmCoreData.xcdatamodel */;
+			path = AKRealmCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D76E146D1F4D0D8B00B182DE /* Project object */;
+}
